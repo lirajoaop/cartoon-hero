@@ -3,6 +3,7 @@ body {
    font-family: 'Helvetica', 'Arial', sans-serif;
    font-size: 20px;
    line-height: 30px;
+/* para que a fonte não fique quebrada com zoom */
    -webkit-font-smoothing:antialiased;
 }
 
@@ -69,6 +70,12 @@ footer p {
 footer a {
     color: white;
 }
+
+
+footer a:hover{
+    color: white;
+}
+
 
 p.caption {
     color: #999999;
